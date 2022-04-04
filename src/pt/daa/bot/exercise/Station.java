@@ -1,0 +1,105 @@
+package pt.daa.bot.exercise;
+
+/**
+ * To use instead of a list if we were to make it harder.
+ * It could have more properties like service types and or ticket prices
+ */
+public enum Station {
+
+    Abrantes("Abrantes"),
+    Afife("Afife"),
+    Agualva_Cacem("Agualva-Cacém"),
+    Aguda("Aguda"),
+    Aguim("Aguim"),
+    Albergaria_dos_Doze("Albergaria dos Doze"),
+    Albufeira_Ferreiras("Albufeira-Ferreiras"),
+    Alcaide("Alcaide"),
+    Alcains("Alcains"),
+    Alcaria("Alcaria"),
+    Alcacovas("Alcaçovas"),
+    Alcantara_Mar("Alcântara-Mar"),
+    Alcantara_Terra("Alcântara-Terra"),
+    Aldeia("Aldeia"),
+    Alegria("Alegria"),
+    Alfarelos("Alfarelos"),
+    Alferrarede("Alferrarede"),
+    Algoz("Algoz"),
+    Algueirao("Algueirão"),
+    Alges("Algés"),
+    Alhandra("Alhandra"),
+    Alhos_vedros("Alhos Vedros"),
+    Almourol("Almourol"),
+    Alpedrinha("Alpedrinha"),
+    Alvaraes("Alvarães"),
+    Alvega_Ortiga("Alvega-Ortiga"),
+    Alverca("Alverca"),
+    Alvito("Alvito"),
+    Amadora("Amadora"),
+    Ameal("Ameal"),
+    Aregos("Aregos"),
+    Areia_Darque("Areia-Darque"),
+    Arentim("Arentim"),
+    Areosa("Areosa"),
+    Arronches("Arronches"),
+    Assumar("Assumar"),
+    Avanca("Avanca"),
+    Aveiro("Aveiro"),
+    Aveleda("Aveleda"),
+    Azambuja("Azambuja"),
+    Baixa_da_Banheira("Baixa da Banheira"),
+    Baracal("Baraçal"),
+    Barcelos("Barcelos"),
+    Barqueiros("Barqueiros"),
+    Barquinha("Barquinha"),
+    Barreiro("Barreiro"),
+    Barrimau("Barrimau"),
+    Barroselas("Barroselas"),
+    Beja("Beja"),
+    Belem("Belém"),
+    Bemposta("Bemposta"),
+    Bencanta("Bencanta"),
+    Benfica("Benfica"),
+    Benquerencas("Benquerenças"),
+    Bobadela("Bobadela"),
+    Boliqueime("Boliqueime"),
+    Bombarral("Bombarral"),
+    Braga("Braga"),
+    Bustelo("Bustelo"),
+    Cabeda("Cabeda"),
+    Cacela("Cacela"),
+    Cacia("Cacia"),
+    Cais_Sodre("Cais do Sodré"),
+    Caldas_Rainha("Caldas da Rainha"),
+    Caldas_Moledo("Caldas de Moledo"),
+    Caminha("Caminha"),
+    Campolide("Campolide"),
+    Canelas("Canelas"),
+    Carcavelos("Carcavelos"),
+    Carregado("Carregado"),
+    Carreira("Carreira"),
+    Carvalha("Carvalha"),
+    Casais("Casais"),
+    Cascais("Cascais"),
+    Castelejo("Castelejo"),
+    Castelo_Branco("Castelo Branco"),
+    Castelo_Novo("Castelo Novo"),
+    Caxarias("Caxarias"),
+    Caxias("Caxias"),
+    Cerdeira("Cerdeira"),
+    Santa_Iria("Santa Iria"),
+    Santa_Margarida("Santa Margarida"),
+    Santarem("Santarém"),
+    Santana_Cartaxo("Santana-Cartaxo"),
+    Santo_Amaro_Oeiras("Santo Amaro de Oeiras"),
+    Coimbra("Coimbra");
+
+    private final String stationName;
+
+    Station(String name) {
+        this.stationName = name;
+    }
+
+    public String getStationName() {
+        return this.stationName;
+    }
+}
